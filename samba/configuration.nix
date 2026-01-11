@@ -110,9 +110,9 @@
     settings = {
       global = {
         "workgroup" = "WORKGROUP";
-	      "security" = "user";
-	      "wins support" = "yes";
-	      "server string" = "Wintervoorraad samba";
+        "security" = "user";
+        "wins support" = "yes";
+        "server string" = "Wintervoorraad samba";
         "client smb encrypt" = "desired";
         # Lock the service to local network only
         # Allowlist takes precedence
