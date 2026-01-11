@@ -2,9 +2,13 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, ... }:
+{  lib, pkgs, ... }:
 
 {
+  imports = lib.optionals (!isImageTarget) [
+    ./hardware-configuration.nix
+  ];
+
   # Bootloader.
   boot.loader.grub.enable = true;
   boot.loader.grub.device = "/dev/sda";
