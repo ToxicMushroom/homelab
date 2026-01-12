@@ -37,6 +37,7 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
+  users.groups.bevers = {};
   users.users = {
     # Main non-samba user for managing the server
     samba = {
