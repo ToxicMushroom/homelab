@@ -138,7 +138,6 @@
         # "recycle:exclude" = "*.TMP *.tmp *.temp ~$* *.log *.bak";
       };
       wintervoorraad = {
-        description = "Beverburcht De Dam";
         path = "/beverburcht/Seagate";
        	"read only" = "no";
         browseable = "yes";
