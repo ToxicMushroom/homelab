@@ -24,7 +24,6 @@
       beverburcht = nixpkgs.lib.nixosSystem {
         modules = [
           ./configuration.nix
-          inputs.disko.nixosModules.disko
         ];
         specialArgs = {
           isImageTarget = false;

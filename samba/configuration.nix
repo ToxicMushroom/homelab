@@ -7,7 +7,6 @@
 {
   imports = lib.optionals (!isImageTarget) [
     ./hardware-configuration.nix
-    ./disko-config.nix
   ];
 
   networking.hostName = "beverburcht"; # Define your hostname.
