@@ -18,5 +18,10 @@
       fsType = "ext4";
     };
 
+  fileSystems."/beverburcht" =
+    { device = "/dev/disk/by-uuid/e01a8ba3-fcc6-4ce3-9ba7-4fa2dc053239";
+      fsType = "ext4";
+    };
+
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
 }

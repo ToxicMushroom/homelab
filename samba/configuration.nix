@@ -57,18 +57,23 @@
     # sudo smbpasswd -a name
     sonos = {
       isNormalUser = true;
+      extraGroups = [ "bevers" ];
     };
     ulrich = {
       isNormalUser = true;
+      extraGroups = [ "bevers" ];
     };
     eva = {
       isNormalUser = true;
+      extraGroups = [ "bevers" ];
     };
     merlijn = {
       isNormalUser = true;
+      extraGroups = [ "bevers" ];
     };
     fabian = {
       isNormalUser = true;
+      extraGroups = [ "bevers" ];
     };
   };
 
