@@ -14,4 +14,6 @@ If successful, a `*.vma` file will be generated under `./result`. Simply copy th
 ### To check entire flake:
  - `nix --extra-experimental-features 'nix-command flakes' flake check`
 
-
+### Setting up samba
+ - Change the configuration.nix to your preferences
+ - Set user passwords with `sudo smbpasswd -a user`
